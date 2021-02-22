@@ -1,0 +1,68 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G04
+D Single NOT Gate, AHCMOS
+K Single Gate NOT AHCMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74AHC1G08
+D Single AND Gate, AHCMOS
+K Single Gate AND AHCMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+$CMP 74AHC1G126
+D Single Buffer Gate Tri-State, AHCMOS
+K Single Gate Buff Tri-State AHCMOS
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g126.pdf
+$ENDCMP
+#
+$CMP 74AHC1G32
+D Single OR Gate, AHCMOS
+K Single Gate OR AHCMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G04
+D Single NOT Gate, AHCTMOS
+K Single Gate NOT AHCTMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G08
+D Single AND Gate, AHCTMOS
+K Single Gate AND AHCTMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G32
+D Single OR Gate, AHCTMOS
+K Single Gate OR AHCTMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74HC107
+D Dual JK Flip-Flop, reset
+K CMOS JK
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT107.pdf
+$ENDCMP
+#
+$CMP 74HCT107
+D Dual JK Flip-Flop, reset
+K CMOS JK
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT107.pdf
+$ENDCMP
+#
+$CMP CD74AC161M
+D Counter ICs Sync Preset Binary w/ASync Reset
+F https://www.ti.com/lit/ds/symlink/cd74ac161.pdf
+$ENDCMP
+#
+$CMP LTC6990CS6
+D Voltage Controlled Silicon Oscillator
+K oscillator frequency silicon
+F https://www.mouser.ch/datasheet/2/609/LTC6990-1776026.pdf
+$ENDCMP
+#
+#End Doc Library

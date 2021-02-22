@@ -1,0 +1,32 @@
+{signal: [
+  {name: '~TRANSMIT_CMD', wave: 			'hLx................h..|'},
+  {},
+  
+  {name: 'TRANSMITING_STAT', wave: 		    'l1.................0..|', node: '.a'},
+  {name: '~TRANSMITING_STAT', wave: 		'h0.................1..|'},
+  {name: 'TRANSMITING_STAT_DELAYED', wave: 	'l..1...............0..|', node: '...b'},
+  {},
+  
+  {name: '9600_BAUD', wave: 				'l..101010101010101010.|'},
+  {},
+  
+  {name: '(counter) Qx', wave: 				'=..=.=.=.=.=.=.=.=.=..|', data:['0','1','2','3','4','5','6','7','8','9 -> 0']},
+  {name: '~ZERO', wave: 			        'h..0...............1..|'},
+  {name: 'ZERO', wave: 			            'l..1...............0..|'},
+  {name: '~INTERNAL_RESET', wave: 			'h..................01.|'},
+  {},
+  
+  {name: 'TX', wave: 		                'h0.=.=.=.=.=.=.=.=.1..|', data:['data 8 MSB','data 7','data 6','data 5','data 4','data 3','data 2','data 1 LSB']},
+  {},
+  
+  {name: 'TRANSMIT_FLAG', wave: 		    'x..................1..|'},
+],
+edge: [
+  'a~b 1/9600 x1.0 delay'
+],
+head:{
+   text:'UART_peripheral_card_A Transmission',
+   tick:0,
+}
+
+}

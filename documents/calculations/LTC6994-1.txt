@@ -1,0 +1,49 @@
+https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6994-1-6994-2.pdf
+
+For a tDelay of (1/9600) * 0.5 (- tENABLE/2) delay :
+
+tDelay = (1/9600) * 0.5 - tENABLE/2
+tDelay = (1/9600) * 0.5 - 26.042us/2
+tDelay ~= 39.062us
+
+---
+
+(8us to 128us)
+DIVCODE = 14
+Ndiv = 8
+POL = 1
+
+R1 = 102k
+R2 = 976k
+
+---
+
+Rset = (50k / 1us) * (tDelay / Ndiv)
+Rset = (50k / 1us) * (39.062us / 8)
+Rset ~= 244.137k
+Rset(E96) = 243k
+
+------
+
+For a tDelay of (1/9600) * 1.0 (- tENABLE/2) delay :
+
+tDelay = (1/9600) * 1.0 - tENABLE/2
+tDelay = (1/9600) * 1.0 - 26.042us/2
+tDelay ~= 91.125us
+
+---
+
+(8us to 128us)
+DIVCODE = 14
+Ndiv = 8
+POL = 0
+
+R1 = 976k
+R2 = 102k
+
+---
+
+Rset = (50k / 1us) * (tDelay / Ndiv)
+Rset = (50k / 1us) * (91.125us / 8)
+Rset ~= 569.531k
+Rset(E96) = 562k

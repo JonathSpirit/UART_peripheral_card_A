@@ -1,0 +1,37 @@
+https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6990.pdf
+
+For a baud of 9600 (9600Hz) :
+
+(7.813kHz to 125kHz)
+DIVCODE = 3
+Ndiv = 8 
+Hi-Z = 0
+
+R1 = 1000k
+R2 = 280k
+
+---
+
+Rset = (1M * 50k) / (Ndiv * fout)
+Rset = (1M * 50k) / (8 * 9600)
+Rset ~= 651.042k
+Rset(E96) = 649k
+
+---
+
+fMASTER = (1MHz * 50k) / Rset
+fMASTER = (1MHz * 50k) / 649k
+fMASTER ~= 77041.602Hz
+tMASTER = 1 / fMASTER
+tMASTER = 1 / 77041.602
+tMASTER ~= 13.021us
+
+---
+
+(tENABLE when NDIV >= 4)
+tENABLE = tPD to 2 * tMASTER us
+tENABLE = 17ns to 26.042us
+
+---
+
+fFINAL = 9630.2Hz (theoretical)

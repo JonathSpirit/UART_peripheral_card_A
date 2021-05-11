@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "UART peripheral card"
-Date "2021-02-22"
-Rev "A V1.0"
+Date "2021-05-11"
+Rev "A V1.1"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"

@@ -328,66 +328,6 @@ BWRITE2_2
 Text Label 3250 5050 2    60   ~ 0
 BWRITE2_3
 $Comp
-L Custom:74AHC1G04 U?
-U 1 1 5FFC1020
-P 5850 6100
-AR Path="/5FD66C52/5FFC1020" Ref="U?"  Part="1" 
-AR Path="/5FFC1020" Ref="U3"  Part="1" 
-F 0 "U3" H 5950 6350 50  0000 L CNN
-F 1 "74AHC1G04" H 5950 6250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5850 6100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 5850 6100 50  0001 C CNN
-	1    5850 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FFC1026
-P 5850 5800
-AR Path="/5FD66C52/5FFC1026" Ref="#PWR?"  Part="1" 
-AR Path="/5FFC1026" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 5850 5650 50  0001 C CNN
-F 1 "+5V" H 5865 5973 50  0000 C CNN
-F 2 "" H 5850 5800 50  0001 C CNN
-F 3 "" H 5850 5800 50  0001 C CNN
-	1    5850 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FFC102C
-P 5850 6400
-AR Path="/5FD66C52/5FFC102C" Ref="#PWR?"  Part="1" 
-AR Path="/5FFC102C" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 5850 6150 50  0001 C CNN
-F 1 "GND" H 5855 6227 50  0000 C CNN
-F 2 "" H 5850 6400 50  0001 C CNN
-F 3 "" H 5850 6400 50  0001 C CNN
-	1    5850 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 6300 5850 6400
-Wire Wire Line
-	5850 5900 5850 5800
-Text Label 5550 6100 2    60   ~ 0
-CLK_MODULE
-Text Label 6150 6100 0    60   ~ 0
-~CLK_MODULE
-$Comp
-L Custom:74AHC1G32 U?
-U 1 1 5FFC8798
-P 1700 5100
-AR Path="/5FD66C52/5FFC8798" Ref="U?"  Part="1" 
-AR Path="/5FFC8798" Ref="U1"  Part="1" 
-F 0 "U1" H 1800 5400 50  0000 L CNN
-F 1 "74AHC1G32" H 1800 5300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1700 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1700 5100 50  0001 C CNN
-	1    1700 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FFC879E
 P 1700 5400
@@ -417,19 +357,6 @@ F 3 "" H 1700 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 4900 1700 4800
-$Comp
-L Custom:74AHC1G32 U?
-U 1 1 5FFCA67F
-P 1700 6100
-AR Path="/5FD66C52/5FFCA67F" Ref="U?"  Part="1" 
-AR Path="/5FFCA67F" Ref="U2"  Part="1" 
-F 0 "U2" H 1800 6400 50  0000 L CNN
-F 1 "74AHC1G32" H 1800 6300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1700 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1700 6100 50  0001 C CNN
-	1    1700 6100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FFCA685
@@ -461,19 +388,6 @@ $EndComp
 Wire Wire Line
 	1700 5900 1700 5800
 $Comp
-L Custom:74AHC1G32 U?
-U 1 1 5FFCB043
-P 3550 6100
-AR Path="/5FD66C52/5FFCB043" Ref="U?"  Part="1" 
-AR Path="/5FFCB043" Ref="U5"  Part="1" 
-F 0 "U5" H 3650 6400 50  0000 L CNN
-F 1 "74AHC1G32" H 3650 6300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3550 6100 50  0001 C CNN
-	1    3550 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FFCB049
 P 3550 6400
@@ -504,19 +418,6 @@ $EndComp
 Wire Wire Line
 	3550 5900 3550 5800
 $Comp
-L Custom:74AHC1G32 U?
-U 1 1 5FFCB6FE
-P 3550 5100
-AR Path="/5FD66C52/5FFCB6FE" Ref="U?"  Part="1" 
-AR Path="/5FFCB6FE" Ref="U4"  Part="1" 
-F 0 "U4" H 3650 5400 50  0000 L CNN
-F 1 "74AHC1G32" H 3650 5300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3550 5100 50  0001 C CNN
-	1    3550 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FFCB704
 P 3550 5400
@@ -546,14 +447,6 @@ F 3 "" H 3550 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 4900 3550 4800
-Text Label 1400 5150 2    60   ~ 0
-~CLK_MODULE
-Text Label 1400 6150 2    60   ~ 0
-~CLK_MODULE
-Text Label 3250 6150 2    60   ~ 0
-~CLK_MODULE
-Text Label 3250 5150 2    60   ~ 0
-~CLK_MODULE
 Text Label 5750 3450 2    60   ~ 0
 BWRITE1_0
 Text Label 5750 3550 2    60   ~ 0
@@ -1004,4 +897,56 @@ Wire Wire Line
 	10150 2450 10150 2350
 Wire Wire Line
 	10150 2350 10250 2350
+$Comp
+L Custom:74AHC1G00 U1
+U 1 1 609B1DDC
+P 1700 5100
+F 0 "U1" H 1850 5350 50  0000 L CNN
+F 1 "74AHC1G00" H 1850 5250 50  0000 L CNN
+F 2 "" H 1700 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 1700 5100 50  0001 C CNN
+	1    1700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:74AHC1G00 U4
+U 1 1 609B49A3
+P 3550 5100
+F 0 "U4" H 3700 5350 50  0000 L CNN
+F 1 "74AHC1G00" H 3700 5250 50  0000 L CNN
+F 2 "" H 3550 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 3550 5100 50  0001 C CNN
+	1    3550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:74AHC1G00 U5
+U 1 1 609B4F12
+P 3550 6100
+F 0 "U5" H 3700 6350 50  0000 L CNN
+F 1 "74AHC1G00" H 3700 6250 50  0000 L CNN
+F 2 "" H 3550 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 3550 6100 50  0001 C CNN
+	1    3550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom:74AHC1G00 U2
+U 1 1 609B5381
+P 1700 6100
+F 0 "U2" H 1850 6350 50  0000 L CNN
+F 1 "74AHC1G00" H 1850 6250 50  0000 L CNN
+F 2 "" H 1700 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 1700 6100 50  0001 C CNN
+	1    1700 6100
+	1    0    0    -1  
+$EndComp
+Text Label 3250 5150 2    60   ~ 0
+CLK_MODULE
+Text Label 3250 6150 2    60   ~ 0
+CLK_MODULE
+Text Label 1400 6150 2    60   ~ 0
+CLK_MODULE
+Text Label 1400 5150 2    60   ~ 0
+CLK_MODULE
 $EndSCHEMATC

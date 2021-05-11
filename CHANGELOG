@@ -1,2 +1,8 @@
+UART_peripheral_card_A V1.1 :
+    - Fixing not LSB first issue
+    - Fixing 74AHC1G126 with active high OE, replaced with 74AHC1G125
+    - Place a pull-up on RX
+    - Remove extra inverter gates, duo AND INV replaced with one NAND
+
 UART_peripheral_card_A V1.0 :
     - Intial release

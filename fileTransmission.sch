@@ -1068,7 +1068,7 @@ AR Path="/609F560E" Ref="U?"  Part="1"
 AR Path="/5FE44E7A/609F560E" Ref="U20"  Part="1" 
 F 0 "U20" H 4850 4650 50  0000 L CNN
 F 1 "74AHC1G00" H 4850 4550 50  0000 L CNN
-F 2 "" H 4700 4400 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4700 4400 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 4700 4400 50  0001 C CNN
 	1    4700 4400
 	1    0    0    -1  

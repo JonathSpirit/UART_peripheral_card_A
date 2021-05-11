@@ -592,21 +592,21 @@ Wire Wire Line
 	6850 2150 6850 2300
 Wire Wire Line
 	6850 2300 7000 2300
-Text Label 9200 4150 0    50   ~ 0
-RX_REG_0
-Text Label 9200 4250 0    50   ~ 0
-RX_REG_1
-Text Label 9200 4350 0    50   ~ 0
-RX_REG_2
-Text Label 9200 4450 0    50   ~ 0
-RX_REG_3
-Text Label 9200 4550 0    50   ~ 0
-RX_REG_4
-Text Label 9200 4650 0    50   ~ 0
-RX_REG_5
-Text Label 9200 4750 0    50   ~ 0
-RX_REG_6
 Text Label 9200 4850 0    50   ~ 0
+RX_REG_0
+Text Label 9200 4750 0    50   ~ 0
+RX_REG_1
+Text Label 9200 4650 0    50   ~ 0
+RX_REG_2
+Text Label 9200 4550 0    50   ~ 0
+RX_REG_3
+Text Label 9200 4450 0    50   ~ 0
+RX_REG_4
+Text Label 9200 4350 0    50   ~ 0
+RX_REG_5
+Text Label 9200 4250 0    50   ~ 0
+RX_REG_6
+Text Label 9200 4150 0    50   ~ 0
 RX_REG_7
 Text Label 10400 750  2    50   ~ 0
 RX_REG_0
@@ -872,4 +872,6 @@ Wire Wire Line
 	3300 4800 3300 4850
 Wire Wire Line
 	3300 4850 2800 4850
+Text Notes 9150 3800 0    50   ~ 0
+LSB first
 $EndSCHEMATC

@@ -399,21 +399,21 @@ Wire Wire Line
 Connection ~ 9100 3750
 Wire Wire Line
 	9100 3750 9100 3700
-Text Label 8600 4200 2    50   ~ 0
-TX_REG_0
-Text Label 8600 4300 2    50   ~ 0
-TX_REG_1
-Text Label 8600 4400 2    50   ~ 0
-TX_REG_2
-Text Label 8600 4500 2    50   ~ 0
-TX_REG_3
-Text Label 8600 4600 2    50   ~ 0
-TX_REG_4
-Text Label 8600 4700 2    50   ~ 0
-TX_REG_5
-Text Label 8600 4800 2    50   ~ 0
-TX_REG_6
 Text Label 8600 4900 2    50   ~ 0
+TX_REG_0
+Text Label 8600 4800 2    50   ~ 0
+TX_REG_1
+Text Label 8600 4700 2    50   ~ 0
+TX_REG_2
+Text Label 8600 4600 2    50   ~ 0
+TX_REG_3
+Text Label 8600 4500 2    50   ~ 0
+TX_REG_4
+Text Label 8600 4400 2    50   ~ 0
+TX_REG_5
+Text Label 8600 4300 2    50   ~ 0
+TX_REG_6
+Text Label 8600 4200 2    50   ~ 0
 TX_REG_7
 Text Label 1850 2650 0    50   ~ 0
 ~TRANSMITING_STAT
@@ -1108,4 +1108,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4400 3300 4400
 Connection ~ 3250 4400
+Text Notes 8200 4000 0    50   ~ 0
+LSB first
 $EndSCHEMATC

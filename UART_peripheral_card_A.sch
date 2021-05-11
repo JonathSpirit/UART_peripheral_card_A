@@ -218,7 +218,7 @@ Wire Wire Line
 Connection ~ 10150 1500
 Text Label 10250 2150 2    50   ~ 0
 PERIPHERAL_TX
-Text Label 10250 2250 2    50   ~ 0
+Text Label 9550 2250 2    50   ~ 0
 PERIPHERAL_RX
 $Sheet
 S 5800 1750 1050 1000
@@ -949,4 +949,37 @@ Text Label 1400 6150 2    60   ~ 0
 CLK_MODULE
 Text Label 1400 5150 2    60   ~ 0
 CLK_MODULE
+$Comp
+L Device:R R?
+U 1 1 609C4D0A
+P 9600 1900
+AR Path="/5FD66C52/609C4D0A" Ref="R?"  Part="1" 
+AR Path="/609C4D0A" Ref="R15"  Part="1" 
+F 0 "R15" H 9670 1946 50  0000 L CNN
+F 1 "10k" H 9670 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9530 1900 50  0001 C CNN
+F 3 "~" H 9600 1900 50  0001 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2050 9600 2250
+Wire Wire Line
+	9600 2250 9550 2250
+Wire Wire Line
+	9600 2250 10250 2250
+Connection ~ 9600 2250
+$Comp
+L power:VCC #PWR0109
+U 1 1 609CB94C
+P 9600 1650
+F 0 "#PWR0109" H 9600 1500 50  0001 C CNN
+F 1 "VCC" H 9615 1823 50  0000 C CNN
+F 2 "" H 9600 1650 50  0001 C CNN
+F 3 "" H 9600 1650 50  0001 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1750 9600 1650
 $EndSCHEMATC

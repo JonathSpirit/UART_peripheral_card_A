@@ -30,16 +30,16 @@ This is a homemade without any microcontroller UART board that can transmit and 
 <img src="images/BOARD_3D.png" alt="BOARD_3D" width="400"/>
 <img src="images/BOARD_3D_TOP.png" alt="BOARD_3D_TOP" width="400"/> <img src="images/BOARD_3D_BOT.png" alt="BOARD_3D_BOT" width="400"/>
 
-## Status
+## Stats
 
-Version :
-> A V1.0
+![version](https://img.shields.io/badge/version-UART_peripheral_card_A_V1.1-blue)
 
-Status :
-> Not tested !
+![status](https://img.shields.io/badge/status-not_tested,_should_be_stable-yellow)
 
-Known issues :
-> (unknown)
+![bug](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/bug)\
+![high_impact](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/high%20impact)\
+![medium_impact](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/medium%20impact)\
+![light_impact](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/light%20impact)
 
 ## Main features
 

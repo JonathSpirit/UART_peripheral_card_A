@@ -16,7 +16,7 @@
   {name: '~INTERNAL_RESET', wave: 			'h..................01.|'},
   {},
   
-  {name: 'TX', wave: 		                'h0.=.=.=.=.=.=.=.=.1..|', data:['data 8 MSB','data 7','data 6','data 5','data 4','data 3','data 2','data 1 LSB']},
+  {name: 'TX', wave: 		                'h0.=.=.=.=.=.=.=.=.1..|', data:['data 0 LSB','data 1','data 2','data 3','data 4','data 5','data 6','data 7 MSB']},
   {},
   
   {name: 'TRANSMIT_FLAG', wave: 		    'x..................1..|'},

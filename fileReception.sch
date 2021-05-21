@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "UART peripheral card"
-Date "2021-02-22"
-Rev "A V1.0"
+Date "2021-05-11"
+Rev "A V1.1"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
@@ -344,19 +344,6 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5350 4300 50  0001 C CNN
 	1    5350 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Custom:74AHC1G04 U12
-U 1 1 5FD80E5A
-P 6000 6600
-F 0 "U12" H 6100 6850 50  0000 L CNN
-F 1 "74AHC1G04" H 6100 6750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6000 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 6000 6600 50  0001 C CNN
-	1    6000 6600
-	1    0    0    -1  
-$EndComp
-Text Label 4350 6600 0    50   ~ 0
-STOP_CONDITION
 Text Label 5050 4250 2    50   ~ 0
 9600_BAUD
 Text Label 5600 4300 0    50   ~ 0
@@ -436,17 +423,6 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR037
-U 1 1 5FD9F95B
-P 6000 6300
-F 0 "#PWR037" H 6000 6150 50  0001 C CNN
-F 1 "+5V" H 6015 6473 50  0000 C CNN
-F 2 "" H 6000 6300 50  0001 C CNN
-F 3 "" H 6000 6300 50  0001 C CNN
-	1    6000 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 5FDA094E
 P 2850 7150
@@ -457,21 +433,6 @@ F 3 "" H 2850 7150 50  0001 C CNN
 	1    2850 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR038
-U 1 1 5FDA197E
-P 6000 6900
-F 0 "#PWR038" H 6000 6650 50  0001 C CNN
-F 1 "GND" H 6005 6727 50  0000 C CNN
-F 2 "" H 6000 6900 50  0001 C CNN
-F 3 "" H 6000 6900 50  0001 C CNN
-	1    6000 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 6800 6000 6900
-Wire Wire Line
-	6000 6400 6000 6300
 Wire Wire Line
 	2850 7150 2850 7100
 Connection ~ 2850 7100
@@ -592,21 +553,21 @@ Wire Wire Line
 	6850 2150 6850 2300
 Wire Wire Line
 	6850 2300 7000 2300
-Text Label 9200 4150 0    50   ~ 0
-RX_REG_0
-Text Label 9200 4250 0    50   ~ 0
-RX_REG_1
-Text Label 9200 4350 0    50   ~ 0
-RX_REG_2
-Text Label 9200 4450 0    50   ~ 0
-RX_REG_3
-Text Label 9200 4550 0    50   ~ 0
-RX_REG_4
-Text Label 9200 4650 0    50   ~ 0
-RX_REG_5
-Text Label 9200 4750 0    50   ~ 0
-RX_REG_6
 Text Label 9200 4850 0    50   ~ 0
+RX_REG_0
+Text Label 9200 4750 0    50   ~ 0
+RX_REG_1
+Text Label 9200 4650 0    50   ~ 0
+RX_REG_2
+Text Label 9200 4550 0    50   ~ 0
+RX_REG_3
+Text Label 9200 4450 0    50   ~ 0
+RX_REG_4
+Text Label 9200 4350 0    50   ~ 0
+RX_REG_5
+Text Label 9200 4250 0    50   ~ 0
+RX_REG_6
+Text Label 9200 4150 0    50   ~ 0
 RX_REG_7
 Text Label 10400 750  2    50   ~ 0
 RX_REG_0
@@ -762,48 +723,35 @@ Connection ~ 8800 5300
 Wire Wire Line
 	8800 5300 8800 5250
 $Comp
-L Custom:74AHC1G08 U?
-U 1 1 5FDAE04C
-P 4100 6600
-AR Path="/5FE44E7A/5FDAE04C" Ref="U?"  Part="1" 
-AR Path="/5FD66C52/5FDAE04C" Ref="U10"  Part="1" 
-F 0 "U10" H 4250 6850 50  0000 L CNN
-F 1 "74AHC1G08" H 4250 6750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4100 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G08.pdf" H 4100 6600 50  0001 C CNN
-	1    4100 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5FDAE052
-P 4100 6900
+P 4650 6800
 AR Path="/5FE44E7A/5FDAE052" Ref="#PWR?"  Part="1" 
 AR Path="/5FD66C52/5FDAE052" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 4100 6650 50  0001 C CNN
-F 1 "GND" H 4105 6727 50  0000 C CNN
-F 2 "" H 4100 6900 50  0001 C CNN
-F 3 "" H 4100 6900 50  0001 C CNN
-	1    4100 6900
+F 0 "#PWR032" H 4650 6550 50  0001 C CNN
+F 1 "GND" H 4655 6627 50  0000 C CNN
+F 2 "" H 4650 6800 50  0001 C CNN
+F 3 "" H 4650 6800 50  0001 C CNN
+	1    4650 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5FDAE058
-P 4100 6300
+P 4650 6200
 AR Path="/5FE44E7A/5FDAE058" Ref="#PWR?"  Part="1" 
 AR Path="/5FD66C52/5FDAE058" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 4100 6150 50  0001 C CNN
-F 1 "+5V" H 4115 6473 50  0000 C CNN
-F 2 "" H 4100 6300 50  0001 C CNN
-F 3 "" H 4100 6300 50  0001 C CNN
-	1    4100 6300
+F 0 "#PWR031" H 4650 6050 50  0001 C CNN
+F 1 "+5V" H 4665 6373 50  0000 C CNN
+F 2 "" H 4650 6200 50  0001 C CNN
+F 3 "" H 4650 6200 50  0001 C CNN
+	1    4650 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 6400 4100 6300
+	4650 6300 4650 6200
 Wire Wire Line
-	4100 6800 4100 6900
+	4650 6700 4650 6800
 Text Label 3350 6350 0    50   ~ 0
 Qa
 Text Label 3350 6450 0    50   ~ 0
@@ -814,13 +762,11 @@ Text Label 3350 6650 0    50   ~ 0
 Qd
 NoConn ~ 3350 6450
 NoConn ~ 3350 6550
-Text Label 3800 6550 2    50   ~ 0
+Text Label 4350 6450 2    50   ~ 0
 Qa
-Text Label 3800 6650 2    50   ~ 0
+Text Label 4350 6550 2    50   ~ 0
 Qd
-Text Label 5700 6600 2    50   ~ 0
-STOP_CONDITION
-Text Label 6300 6600 0    50   ~ 0
+Text Label 4900 6500 0    50   ~ 0
 ~STOP_CONDITION
 Text Label 5050 4350 2    50   ~ 0
 ~STOP_CONDITION
@@ -872,4 +818,19 @@ Wire Wire Line
 	3300 4800 3300 4850
 Wire Wire Line
 	3300 4850 2800 4850
+Text Notes 9150 3800 0    50   ~ 0
+LSB first
+$Comp
+L Custom:74AHC1G00 U?
+U 1 1 609D75AB
+P 4650 6500
+AR Path="/609D75AB" Ref="U?"  Part="1" 
+AR Path="/5FD66C52/609D75AB" Ref="U10"  Part="1" 
+F 0 "U10" H 4800 6750 50  0000 L CNN
+F 1 "74AHC1G00" H 4800 6650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4650 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G00.pdf" H 4650 6500 50  0001 C CNN
+	1    4650 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

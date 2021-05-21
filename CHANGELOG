@@ -1,2 +1,10 @@
+UART_peripheral_card_A V1.1 :
+    - Fixing the "not LSB first" issue (was MSB :,( )
+    - Fixing 74AHC1G126 with active high OE, replaced with 74AHC1G125
+    - Place a pull-up on RX
+    - Remove extra inverter gates, duo AND INV replaced with one NAND
+    - Small cleaning
+    - Increase a little bit track length
+
 UART_peripheral_card_A V1.0 :
     - Intial release

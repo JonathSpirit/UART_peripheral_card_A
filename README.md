@@ -34,7 +34,7 @@ This is a homemade without any microcontroller UART board that can transmit and 
 
 ![version](https://img.shields.io/badge/version-UART_peripheral_card_A_V1.1-blue)
 
-![status](https://img.shields.io/badge/status-not_tested,_should_be_stable-yellow)
+![status](https://img.shields.io/badge/status-tested\/stable-green)
 
 ![bug](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/bug)\
 ![high_impact](https://img.shields.io/github/issues/JonathSpirit/UART_peripheral_card_A/high%20impact)\

@@ -21,7 +21,7 @@ for applicable conditions.
 </tr>
 </table>
 
-Made with [Kicad](https://kicad-pcb.org/)
+Made with [Kicad](https://kicad.org/)
 
 ## Description
 A UART peripheral card compatible with [PP1 standard](https://github.com/JonathSpirit/GComputer_standard).
